@@ -1,7 +1,7 @@
 read -p "enter the first input $a " a
 read -p "enter the second input $b " b
 read -p "enter the third input $c " c
-echo "three inputs are : $a $b $c"
+echo "three inputs are : $a $b $c "
 x=$(($a+$b*$c))
 echo "$x"
 y=$(($a*$b+$c))
